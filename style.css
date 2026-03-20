@@ -1,0 +1,51 @@
+/* 基本布局 */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.game-container {
+    text-align: center;
+}
+
+.game-area {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+/* 画布边框 */
+#gameCanvas {
+    border: 2px solid #333;
+    background: #fff;
+    display: block;
+    margin-right: 20px;
+}
+
+#nextCanvas {
+    border: 2px solid #333;
+    background: #fff;
+    display: block;
+}
+
+/* 信息区 */
+.info {
+    margin-top: 10px;
+}
+
+#score {
+    font-weight: bold;
+}
+
+#restartBtn {
+    padding: 5px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
