@@ -270,7 +270,7 @@ document.addEventListener('keydown', e => {
 function endGame() {
     clearInterval(dropTimer);
     gameOver = true;
-    alert('游戏结束');
+    alert('ゲームオーバー');
 }
 
 // 重置游戏
